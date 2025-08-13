@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="holi.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div>
+        <header class="header">
+            <h1>Calculadora: Indice de masa corporal</h1>
+            <p>Encuentra tu imc en base a tus datos</p>
+        </header>
+
+    </div>
+
+    <div class="basicdata">
+        <h2>Antes de comenzar</h2>
+        <p>Ingresa tus datos para una experiencia personalizada</p>
+
+        <form class="data" id="form1">
+            <p>Nombre</p>
+            <input type="text" name="username" id="1" required>
+
+            <p>Apellido</p>
+            <input type="text" name="lastname" id="2" required>
+
+            <p>Numero de identificación (CC/TI/Registro)</p>
+            <input type="number" name="cc" id="3"required>
+
+            <p>Edad</p>
+            <input type="number" name="edad" id="4" required>
+
+            <div class="formulario">
+                <label>
+                <input class="genero" type= "radio" name= "genero" value= "Femenino" required>
+                Femenino
+            </label>
+            <label>
+                <input class="genero" type= "radio" name= "genero" value= "Masculino" required>
+                Masculino
+            </label>
+            <label>
+                <input class="genero" type= "radio" name= "genero" value= "Otro" required>
+                Otro
+            </label>
+
+            <p>Ingrese su peso en kilogramos</p>
+            <input type="number" name="weight" id="6" required>
+
+            <p>Ingrese su altura en centímetros</p>
+            <input type="number" name="height" id="7" required>
+
+            </div>
+
+            <button type="submit">enviar</button>
+        </form>
+
+    </div>
+
+    <script src="eldepagina.js"></script>
+</body>
+</html>
